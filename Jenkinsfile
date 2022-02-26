@@ -14,16 +14,6 @@ pipeline {
 
     stages { 
 
-        stage('Cloning our Git') { 
-
-            steps { 
-
-                git 'https://github.com/vishal03051994/jenkinspipeline.git' 
-
-            }
-
-        } 
-
         stage('Building our image') { 
 
             steps { 
